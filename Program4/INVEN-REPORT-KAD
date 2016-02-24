@@ -1,0 +1,498 @@
+
+
+                                  FIREFLY LTD                                   
+          02/22/2016            INVENTORY REPORT                     KAD        
+
+  WAREHOUSE: CH20                                                               
+
+     VENDOR: AMEL                                                               
+
+
+        COSTUME       COST    COSTUME    COST    IN       TOTAL                 
+          NAME         ID      SIZE      TYPE   STOCK     COST                  
+
+     PiratePrinces    C04    LARGE      ADULT    023    $1,379.77               
+                      C04    MEDIUM     ADULT    013      $779.87               
+                      C04    SMALL      ADULT    000         $.00               
+                      C04    LARGE      BAD P    009      $629.91               
+                      C04    MEDIUM     CHILD    020      $599.80               
+
+                                            TOTAL:      $3,389.35               
+
+
+        COSTUME       COST    COSTUME    COST    IN       TOTAL                 
+          NAME         ID      SIZE      TYPE   STOCK     COST                  
+
+     PiratePrince     C05    LARGE      ADULT    027    $1,619.73               
+                      C05    MEDIUM     ADULT    035    $2,099.65               
+                      C05    SMALL      ADULT    012      $719.88               
+                      C05    BAD        BAD      000         $.00               
+
+                                            TOTAL:      $4,439.26               
+
+
+        COSTUME       COST    COSTUME    COST    IN       TOTAL                 
+          NAME         ID      SIZE      TYPE   STOCK     COST                  
+
+     CatWoman         C06    MEDIUM     ADULT    045    $2,249.55               
+                      C06    SMALL      ADULT    015      $749.85               
+                      C06    LARGE      CHILD    076    $2,279.24               
+                      C06    MEDIUM     CHILD    005      $149.95               
+                      C06    SMALL      CHILD    097    $2,909.03               
+
+                                            TOTAL:      $8,337.62               
+
+
+             TOTAL FOR VENDOR: AMEL                    $16,166.23               
+
+     VENDOR: NETON                                                              
+
+
+        COSTUME       COST    COSTUME    COST    IN       TOTAL                 
+          NAME         ID      SIZE      TYPE   STOCK     COST                  
+
+     PiratePrinces    C02    LARGE      ADULT    124    $2,478.76               
+                      C02    MEDIUM     ADULT    118    $2,358.82               
+                      C02    SMALL      ADULT    010      $199.90               
+                      C02    LARGE      BAD P    019      $569.81               
+                      C02    SMALL      CHILD    124    $1,238.76               
+
+                                            TOTAL:      $6,846.05               
+
+
+        COSTUME       COST    COSTUME    COST    IN       TOTAL                 
+          NAME         ID      SIZE      TYPE   STOCK     COST                  
+
+     Knight           C03    LARGE      ADULT    012      $311.88               
+                      C03    SMALL      ADULT    008      $207.92               
+                      C03    LARGE      CHILD    090    $1,439.10               
+                      C03    MEDIUM     CHILD    075    $1,199.25               
+                      C03    SMALL      CHILD    019      $303.81               
+
+                                            TOTAL:      $3,461.96               
+
+
+        COSTUME       COST    COSTUME    COST    IN       TOTAL                 
+          NAME         ID      SIZE      TYPE   STOCK     COST                  
+
+     PiratePrince     C05    BAD F      ADULT    120    $2,398.80               
+                      C05    MEDIUM     ADULT    085    $1,699.15               
+                      C05    SMALL      ADULT    015         $.00               
+                      C05    LARGE      BAD P    001       $29.99               
+
+                                            TOTAL:      $4,127.94               
+
+
+             TOTAL FOR VENDOR: NETON                   $14,435.95               
+
+     VENDOR: INVALID P                                                          
+
+
+        COSTUME       COST    COSTUME    COST    IN       TOTAL                 
+          NAME         ID      SIZE      TYPE   STOCK     COST                  
+
+     FairyPrincess    C01    LARGE      ADULT    045    $1,619.55               
+                      C01    MEDIUM     ADULT    000         $.00               
+                      C01    PLUS       ADULT    009      $413.91               
+                      C01    LARGE      CHILD    100    $2,599.00               
+                      C01    SMALL      CHILD    200    $5,198.00               
+
+                                            TOTAL:      $9,830.46               
+
+
+             TOTAL FOR VENDOR: INVALID P                $9,830.46               
+
+     VENDOR: QUASON                                                             
+
+
+        COSTUME       COST    COSTUME    COST    IN       TOTAL                 
+          NAME         ID      SIZE      TYPE   STOCK     COST                  
+
+     FairyPrincess    C02    LARGE      ADULT    005      $679.95               
+                      C02    MEDIUM     ADULT    001      $134.99               
+                      C02    PLUS       ADULT    009    $1,313.91               
+                      C02    LARGE      CHILD    001      $125.99               
+                      C02    SMALL      CHILD    002      $251.98               
+
+                                            TOTAL:      $2,506.82               
+
+
+        COSTUME       COST    COSTUME    COST    IN       TOTAL                 
+          NAME         ID      SIZE      TYPE   STOCK     COST                  
+
+     Knight           C03    BAD        BAD      000         $.00               
+
+                                            TOTAL:           $.00               
+
+
+        COSTUME       COST    COSTUME    COST    IN       TOTAL                 
+          NAME         ID      SIZE      TYPE   STOCK     COST                  
+
+     PiratePrinces    C04    LARGE      ADULT    016    $1,919.84               
+                      C04    MEDIUM     ADULT    017    $2,039.83               
+                      C04    SMALL      ADULT    006      $719.94               
+                      C04    LARGE      BAD P    003      $389.97               
+                      C04    MEDIUM     CHILD    010    $1,099.90               
+
+                                            TOTAL:      $6,169.48               
+
+
+        COSTUME       COST    COSTUME    COST    IN       TOTAL                 
+          NAME         ID      SIZE      TYPE   STOCK     COST                  
+
+     AxeMurder        C07    LARGE      ADULT    020    $2,119.80               
+                      C07    MEDIUM     ADULT    003      $317.97               
+                      C07    BAD T      ADULT    002      $211.98               
+                      C07    MEDIUM     CHILD    000         $.00               
+                      C07    SMALL      CHILD    001       $95.99               
+
+                                            TOTAL:      $2,745.74               
+
+
+             TOTAL FOR VENDOR: QUASON                  $11,422.04               
+
+     VENDOR: INVALID S                                                          
+
+
+        COSTUME       COST    COSTUME    COST    IN       TOTAL                 
+          NAME         ID      SIZE      TYPE   STOCK     COST                  
+
+     VampirePrince    C10    LARGE      ADULT    090   $18,089.10               
+                      C10    MEDIUM     ADULT    085   $17,084.15               
+                      C10    SMALL      ADULT    001      $200.99               
+                      C10    PLUS       ADULT    004    $1,003.96               
+                      C10    LARGE      CHILD    001      $195.99               
+
+                                            TOTAL:     $36,574.19               
+
+
+             TOTAL FOR VENDOR: INVALID S               $36,574.19               
+
+          TOTAL FOR WAREHOUSE: CH20                    $88,428.87               
+
+  WAREHOUSE: LA10                                                               
+
+     VENDOR: AMEL                                                               
+
+
+        COSTUME       COST    COSTUME    COST    IN       TOTAL                 
+          NAME         ID      SIZE      TYPE   STOCK     COST                  
+
+     Elf              C02    LARGE      ADULT    001       $25.99               
+                      C02    SMALL      ADULT    010      $259.90               
+                      C02    PLUS       ADULT    003         $.00               
+                      C02    LARGE      CHILD    000         $.00               
+                      C02    MEDIUM     CHILD    002       $31.98               
+                      C02    LARGE      ADULT    021    $1,175.79               
+                      C02    SMALL      ADULT    008      $447.92               
+                      C02    SMALL      ADULT    002      $131.98               
+                      C02    MEDIUM     CHILD    001       $35.99               
+                      C02    SMALL      CHILD    012      $431.88               
+
+                                            TOTAL:      $2,541.43               
+
+
+        COSTUME       COST    COSTUME    COST    IN       TOTAL                 
+          NAME         ID      SIZE      TYPE   STOCK     COST                  
+
+     Knight           C03    LARGE      ADULT    003      $377.97               
+                      C03    MEDIUM     ADULT    014    $1,763.86               
+                      C03    BAD        BAD      000         $.00               
+
+                                            TOTAL:      $2,141.83               
+
+
+        COSTUME       COST    COSTUME    COST    IN       TOTAL                 
+          NAME         ID      SIZE      TYPE   STOCK     COST                  
+
+     Chef             C09    LARGE      ADULT    015      $194.85               
+                      C09    MEDIUM     ADULT    020      $259.80               
+                      C09    PLUS       ADULT    000         $.00               
+                      C09    BAD O      CHILD    000         $.00               
+                      C09    SMALL      CHILD    001        $8.99               
+
+                                            TOTAL:        $463.64               
+
+
+             TOTAL FOR VENDOR: AMEL                     $5,146.90               
+
+     VENDOR: INVALID C                                                          
+
+
+        COSTUME       COST    COSTUME    COST    IN       TOTAL                 
+          NAME         ID      SIZE      TYPE   STOCK     COST                  
+
+     Knight           C03    LARGE      ADULT    019      $493.81               
+                      C03    SMALL      ADULT    003       $77.97               
+                      C03    LARGE      CHILD    040      $639.60               
+                      C03    MEDIUM     CHILD    035      $559.65               
+                      C03    SMALL      CHILD    090    $1,439.10               
+
+                                            TOTAL:      $3,210.13               
+
+
+             TOTAL FOR VENDOR: INVALID C                $3,210.13               
+
+     VENDOR: DENIO                                                              
+
+
+        COSTUME       COST    COSTUME    COST    IN       TOTAL                 
+          NAME         ID      SIZE      TYPE   STOCK     COST                  
+
+     PiratePrinces    C03    LARGE      ADULT    023    $1,379.77               
+                      C03    MEDIUM     ADULT    013      $779.87               
+                      C03    SMALL      ADULT    000         $.00               
+                      C03    PLUS       ADULT    009      $629.91               
+                      C03    MEDIUM     CHILD    020      $599.80               
+
+                                            TOTAL:      $3,389.35               
+
+
+        COSTUME       COST    COSTUME    COST    IN       TOTAL                 
+          NAME         ID      SIZE      TYPE   STOCK     COST                  
+
+     PiratePrince     C08    LARGE      ADULT    024    $3,839.76               
+                      C08    MEDIUM     ADULT    033    $5,279.67               
+                      C08    SMALL      ADULT    013    $2,079.87               
+                      C08    LARGE      BAD P    012    $2,039.88               
+                      C08    LARGE      CHILD    027    $3,509.73               
+
+                                            TOTAL:     $16,748.91               
+
+
+        COSTUME       COST    COSTUME    COST    IN       TOTAL                 
+          NAME         ID      SIZE      TYPE   STOCK     COST                  
+
+     Chef             C09    LARGE      ADULT    025    $2,824.75               
+                      C09    MEDIUM     ADULT    020    $2,259.80               
+                      C09    PLUS       ADULT    030    $3,689.70               
+                      C09    LARGE      CHILD    001      $108.99               
+                      C09    SMALL      CHILD    001      $108.99               
+
+                                            TOTAL:      $8,992.23               
+
+
+             TOTAL FOR VENDOR: DENIO                   $29,130.49               
+
+     VENDOR: INVALID U                                                          
+
+
+        COSTUME       COST    COSTUME    COST    IN       TOTAL                 
+          NAME         ID      SIZE      TYPE   STOCK     COST                  
+
+     VampirePrince    C10    LARGE      ADULT    010    $2,009.90               
+                      C10    MEDIUM     ADULT    000         $.00               
+                      C10    SMALL      ADULT    002      $401.98               
+                      C10    PLUS       ADULT    003      $752.97               
+                      C10    LARGE      CHILD    002      $391.98               
+
+                                            TOTAL:      $3,556.83               
+
+
+             TOTAL FOR VENDOR: INVALID U                $3,556.83               
+
+     VENDOR: WEST                                                               
+
+
+        COSTUME       COST    COSTUME    COST    IN       TOTAL                 
+          NAME         ID      SIZE      TYPE   STOCK     COST                  
+
+     Monkey           C01    LARGE      ADULT    000         $.00               
+                      C01    MEDIUM     ADULT    002       $35.98               
+                      C01    PLUS       ADULT    001       $27.99               
+                      C01    MEDIUM     CHILD    035      $279.65               
+                      C01    SMALL      CHILD    003       $23.97               
+
+                                            TOTAL:        $367.59               
+
+
+        COSTUME       COST    COSTUME    COST    IN       TOTAL                 
+          NAME         ID      SIZE      TYPE   STOCK     COST                  
+
+     FairyPrincess    C05    LARGE      ADULT    035         $.00               
+                      C05    MEDIUM     ADULT    001       $35.99               
+                      C05    PLUS       ADULT    003      $137.97               
+                      C05    LARGE      CHILD    000         $.00               
+                      C05    SMALL      CHILD    100    $2,599.00               
+
+                                            TOTAL:      $2,772.96               
+
+
+        COSTUME       COST    COSTUME    COST    IN       TOTAL                 
+          NAME         ID      SIZE      TYPE   STOCK     COST                  
+
+     AxeMurder        C07    LARGE      ADULT    020    $2,119.80               
+                      C07    MEDIUM     ADULT    003      $317.97               
+                      C07    BAD O      ADULT    002      $211.98               
+                      C07    MEDIUM     CHILD    000         $.00               
+                      C07    SMALL      CHILD    001       $95.99               
+
+                                            TOTAL:      $2,745.74               
+
+
+             TOTAL FOR VENDOR: WEST                     $5,886.29               
+
+          TOTAL FOR WAREHOUSE: LA10                    $46,930.64               
+
+  WAREHOUSE: NY30                                                               
+
+     VENDOR: NETON                                                              
+
+
+        COSTUME       COST    COSTUME    COST    IN       TOTAL                 
+          NAME         ID      SIZE      TYPE   STOCK     COST                  
+
+     Knight           C03    LARGE      ADULT    009      $413.91               
+                      C03    SMALL      ADULT    023    $1,057.77               
+                      C03    LARGE      CHILD    043    $1,547.57               
+                      C03    MEDIUM     CHILD    035    $1,259.65               
+                      C03    SMALL      CHILD    091    $3,275.09               
+
+                                            TOTAL:      $7,553.99               
+
+
+        COSTUME       COST    COSTUME    COST    IN       TOTAL                 
+          NAME         ID      SIZE      TYPE   STOCK     COST                  
+
+     FairyPrincess    C05    LARGE      ADULT    015      $539.85               
+                      C05    MEDIUM     ADULT    011      $395.89               
+                      C05    PLUS       ADULT    013      $597.87               
+                      C05    LARGE      CHILD    001       $25.99               
+                      C05    SMALL      CHILD    110    $2,858.90               
+
+                                            TOTAL:      $4,418.50               
+
+
+        COSTUME       COST    COSTUME    COST    IN       TOTAL                 
+          NAME         ID      SIZE      TYPE   STOCK     COST                  
+
+     Monkey           C08    LARGE      ADULT    001       $27.99               
+                      C08    MEDIUM     ADULT    001       $27.99               
+                      C08    BAD K      ADULT    002       $75.98               
+                      C08    MEDIUM     CHILD    032      $575.68               
+                      C08    SMALL      CHILD    004       $71.96               
+
+                                            TOTAL:        $779.60               
+
+
+             TOTAL FOR VENDOR: NETON                   $12,752.09               
+
+     VENDOR: VISSON                                                             
+
+
+        COSTUME       COST    COSTUME    COST    IN       TOTAL                 
+          NAME         ID      SIZE      TYPE   STOCK     COST                  
+
+     Knight           C03    LARGE      ADULT    010      $259.90               
+                      C03    SMALL      ADULT    005      $129.95               
+                      C03    LARGE      CHILD    060      $959.40               
+                      C03    MEDIUM     CHILD    035      $559.65               
+                      C03    SMALL      CHILD    012      $191.88               
+
+                                            TOTAL:      $2,100.78               
+
+
+        COSTUME       COST    COSTUME    COST    IN       TOTAL                 
+          NAME         ID      SIZE      TYPE   STOCK     COST                  
+
+     FairyPrincess    C05    LARGE      ADULT    005      $179.95               
+                      C05    BAD I      ADULT    002       $71.98               
+                      C05    PLUS       ADULT    002       $91.98               
+                      C05    LARGE      CHILD    000         $.00               
+                      C05    SMALL      CHILD    000         $.00               
+
+                                            TOTAL:        $343.91               
+
+
+        COSTUME       COST    COSTUME    COST    IN       TOTAL                 
+          NAME         ID      SIZE      TYPE   STOCK     COST                  
+
+     CatWoman         C06    MEDIUM     ADULT    025    $1,249.75               
+                      C06    SMALL      ADULT    035    $1,749.65               
+                      C06    LARGE      CHILD    026      $779.74               
+                      C06    MEDIUM     CHILD    045    $1,349.55               
+                      C06    SMALL      CHILD    067    $2,009.33               
+
+                                            TOTAL:      $7,138.02               
+
+
+        COSTUME       COST    COSTUME    COST    IN       TOTAL                 
+          NAME         ID      SIZE      TYPE   STOCK     COST                  
+
+     AxeMurder        C07    LARGE      ADULT    021      $755.79               
+                      C07    MEDIUM     ADULT    043    $1,547.57               
+                      C07    SMALL      ADULT    002       $71.98               
+                      C07    MEDIUM     CHILD    003       $77.97               
+                      C07    SMALL      CHILD    001       $25.99               
+
+                                            TOTAL:      $2,479.30               
+
+
+             TOTAL FOR VENDOR: VISSON                  $12,062.01               
+
+     VENDOR: WEST                                                               
+
+
+        COSTUME       COST    COSTUME    COST    IN       TOTAL                 
+          NAME         ID      SIZE      TYPE   STOCK     COST                  
+
+     PiratePrince     C01    LARGE      ADULT    025    $3,999.75               
+                      C01    MEDIUM     ADULT    003      $479.97               
+                      C01    SMALL      ADULT    010    $1,599.90               
+                      C01    LARGE      BAD P    010    $1,699.90               
+                      C01    LARGE      CHILD    020    $2,599.80               
+
+                                            TOTAL:     $10,379.32               
+
+
+        COSTUME       COST    COSTUME    COST    IN       TOTAL                 
+          NAME         ID      SIZE      TYPE   STOCK     COST                  
+
+     Elf              C04    LARGE      ADULT    003      $377.97               
+                      C04    SMALL      ADULT    011    $1,385.89               
+                      C04    PLUS       ADULT    002      $271.98               
+                      C04    LARGE      CHILD    001      $115.99               
+                      C04    MEDIUM     CHILD    012    $1,391.88               
+
+                                            TOTAL:      $3,543.71               
+
+
+        COSTUME       COST    COSTUME    COST    IN       TOTAL                 
+          NAME         ID      SIZE      TYPE   STOCK     COST                  
+
+     CatWoman         C06    MEDIUM     ADULT    045    $6,749.55               
+                      C06    SMALL      ADULT    015    $2,249.85               
+                      C06    BAD        BAD      000         $.00               
+
+                                            TOTAL:      $8,999.40               
+
+
+        COSTUME       COST    COSTUME    COST    IN       TOTAL                 
+          NAME         ID      SIZE      TYPE   STOCK     COST                  
+
+     Chef             C09    LARGE      ADULT    025    $2,824.75               
+                      C09    MEDIUM     ADULT    020    $2,259.80               
+                      C09    PLUS       ADULT    030    $3,689.70               
+                      C09    LARGE      CHILD    001      $108.99               
+                      C09    SMALL      CHILD    001      $108.99               
+
+                                            TOTAL:      $8,992.23               
+
+
+        COSTUME       COST    COSTUME    COST    IN       TOTAL                 
+          NAME         ID      SIZE      TYPE   STOCK     COST                  
+
+     VampirePrince    C10    BAD <      ADULT    030    $6,029.70               
+                      C10    BAD I      ADULT    025    $5,024.75               
+                      C10    SMALL      ADULT    001      $600.99               
+                      C10    PLUS       ADULT    003      $752.97               
+                      C10    LARGE      CHILD    021    $4,115.79               
+
+                                            TOTAL:     $16,524.20               
+
+
+             TOTAL FOR VENDOR: WEST                    $48,438.86               
+
+          TOTAL FOR WAREHOUSE: NY30                    $73,252.96               
+
+                      GRAND TOTAL COST:               $208,612.47               

@@ -1,0 +1,24 @@
+
+02/22/2016     KAD          HAL S AUTO PARTS WAREHOUSE                 PAGE 01
+
+                               STOCK ANALYSIS REPORT
+
+
+ CAT           ITEM           PURCH PR   QUANTITY       STOCK       NO  EXCESS
+ NUM        DESCRIPTION       PER UNIT    IN STK        VALUE      SALE RETURN
+
+X8Y20   Hub Cap                 $75.99       225       $17,097.00    X     X
+X6N30   Transmission           $500.00        13        $6,500.00          X
+Y9T40   Spark Plugs             $25.95       165        $4,281.00          X
+S9M60   Slick 50                $59.99        15          $899.00    X     X
+J9M70   Gear Box               $999.99       805      $804,991.00    X     X
+K3L80   Muffler                $350.95       758      $266,020.00          X
+L3D90   Water Hose              $29.95     2,300       $68,885.00          X
+M3100   Radiator               $259.95       780      $202,761.00          X
+S8120   Generator              $177.00        20        $3,540.00          X
+E9130   Timing Belt             $49.00       175        $8,575.00          X
+Y9160   Master Cylinder        $225.00        03          $675.00          X
+U3170   Hydraulic Jack         $175.95        01          $175.00          X
+
+
+                     TOTAL VALUE OF STOCK LISTED    $1,401,685.00
