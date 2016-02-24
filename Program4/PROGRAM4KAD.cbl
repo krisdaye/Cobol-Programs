@@ -113,50 +113,50 @@
 	   FD UNSORTED-FILE1
 	        RECORD CONTAINS 128 CHARACTERS.
 	   01 UNSORT-REC1.
-	      05 US1-WH-ID                PIC X(4).
-		  05 US1-VEN-ID               PIC X.
-		  05 US1-COST-ID              PIC X(3).
-		  05 US1-COST-DATA OCCURS 5 TIMES PIC X(24).
+          05 US1-WH-ID                PIC X(4).
+          05 US1-VEN-ID               PIC X.
+          05 US1-COST-ID              PIC X(3).
+          05 US1-COST-DATA OCCURS 5 TIMES PIC X(24).
 		  
 	   FD UNSORTED-FILE2
 	        RECORD CONTAINS 128 CHARACTERS.
 	   01 UNSORT-REC2.
-	      05 US2-WH-ID                PIC X(4).
-		  05 US2-VEN-ID               PIC X.
-		  05 US2-COST-ID              PIC X(3).
-		  05 US1-COST-DATA OCCURS 5 TIMES PIC X(24).
+          05 US2-WH-ID                PIC X(4).
+          05 US2-VEN-ID               PIC X.
+          05 US2-COST-ID              PIC X(3).
+          05 US1-COST-DATA OCCURS 5 TIMES PIC X(24).
 		  
 	   FD UNSORTED-FILE3
 	        RECORD CONTAINS 128 CHARACTERS.
 	   01 UNSORT-REC3.
-	      05 US3-WH-ID                PIC X(4).
-		  05 US3-VEN-ID               PIC X.
-		  05 US3-COST-ID              PIC X(3).
-		  05 US1-COST-DATA OCCURS 5 TIMES PIC X(24).
+          05 US3-WH-ID                PIC X(4).
+          05 US3-VEN-ID               PIC X.
+          05 US3-COST-ID              PIC X(3).
+          05 US1-COST-DATA OCCURS 5 TIMES PIC X(24).
 		  
 	   FD WH-FILE1
 	        RECORD CONTAINS 128 CHARACTERS.
 	   01 SORT-REC1.
-	      05 SF1-WH-ID                PIC X(4).
-		  05 SF1-VEN-ID               PIC X.
-		  05 SF1-COST-ID              PIC X(3).
-		  05 US1-COST-DATA OCCURS 5 TIMES PIC X(24).
+          05 SF1-WH-ID                PIC X(4).
+          05 SF1-VEN-ID               PIC X.
+          05 SF1-COST-ID              PIC X(3).
+          05 US1-COST-DATA OCCURS 5 TIMES PIC X(24).
 	   
 	   FD WH-FILE2
 	        RECORD CONTAINS 128 CHARACTERS.
 	   01 SORT-REC2.
-	      05 SF2-WH-ID                PIC X(4).
-		  05 SF2-VEN-ID               PIC X.
-		  05 SF2-COST-ID              PIC X(3).
-		  05 US1-COST-DATA OCCURS 5 TIMES PIC X(24).
+          05 SF2-WH-ID                PIC X(4).
+          05 SF2-VEN-ID               PIC X.
+          05 SF2-COST-ID              PIC X(3).
+          05 US1-COST-DATA OCCURS 5 TIMES PIC X(24).
 	   
 	   FD WH-FILE3
 	        RECORD CONTAINS 128 CHARACTERS.
 	   01 SORT-REC3.
-	      05 SF3-WH-ID                PIC X(4).
-		  05 SF3-VEN-ID               PIC X.
-		  05 SF3-COST-ID              PIC X(3).
-		  05 US1-COST-DATA OCCURS 5 TIMES PIC X(24).
+          05 SF3-WH-ID                PIC X(4).
+          05 SF3-VEN-ID               PIC X.
+          05 SF3-COST-ID              PIC X(3).
+          05 US1-COST-DATA OCCURS 5 TIMES PIC X(24).
        
 	   
 	   FD MERGED-FILE.
@@ -173,22 +173,22 @@
 
        SD SORT-FILE.
 	   01 USORT-REC.
-	      05 TMP-WH-ID                PIC X(4).
-		  05 TMP-VEN-ID               PIC X.
-		  05 TMP-COST-ID              PIC X(3).
-		  05 US1-COST-DATA OCCURS 5 TIMES PIC X(24).
+          05 TMP-WH-ID                PIC X(4).
+          05 TMP-VEN-ID               PIC X.
+          05 TMP-COST-ID              PIC X(3).
+          05 US1-COST-DATA OCCURS 5 TIMES PIC X(24).
 
        FD ERROR-FILE1
 	      RECORD CONTAINS 128 CHARACTERS.
-	   01 ERROR-RECORD1          PIC X(128).
+       01 ERROR-RECORD1          PIC X(128).
 	   
        FD ERROR-FILE2
 	      RECORD CONTAINS 128 CHARACTERS.
-	   01 ERROR-RECORD2          PIC X(128).
+       01 ERROR-RECORD2          PIC X(128).
 	   
        FD ERROR-FILE3
 	      RECORD CONTAINS 128 CHARACTERS.
-	   01 ERROR-RECORD3          PIC X(128).
+       01 ERROR-RECORD3          PIC X(128).
 	   
        FD REPORT-FILE
           RECORD CONTAINS 80 CHARACTERS.
@@ -221,7 +221,7 @@
           05 WS-COST-HOLD         PIC X(3).
           05 SUB-ZERO             PIC 99      VALUE 1.
           05 WS-VENDOR-NAME       PIC X(11).
-		  05 TEMP                 PIC 9(6)V99.
+          05 TEMP                 PIC 9(6)V99.
           05 CHOICE               PIC X(4)    VALUE 'ALL'.
 
        01 PAGE-HEADING-1.
@@ -324,13 +324,13 @@
              10 ST-NAME          PIC X(6).
 
        01 WH-DATA.
-	      05                     PIC X(4) VALUE 'CH20'.
-		  05                     PIC X(4) VALUE 'LA10'.
-		  05                     PIC X(4) VALUE 'NY30'.
+          05                     PIC X(4) VALUE 'CH20'.
+          05                     PIC X(4) VALUE 'LA10'.
+          05                     PIC X(4) VALUE 'NY30'.
 		  
-	   01 WH-TABLE REDEFINES WH-DATA.
-	      05 WH-ITEM OCCURS 3 TIMES INDEXED BY WH-INDEX.
-		     10 WHT-ID           PIC X(4).
+       01 WH-TABLE REDEFINES WH-DATA.
+          05 WH-ITEM OCCURS 3 TIMES INDEXED BY WH-INDEX.
+             10 WHT-ID           PIC X(4).
 
        01 DETAIL-LINE.
           05                      PIC X(5) VALUE SPACES.
@@ -357,33 +357,33 @@
        .
 
 	   010-SORT-AND-MERGE.
-	     DISPLAY "ENTER YOUR CHOICE OF WAREHOUSE" 
-         DISPLAY "Choices are as follows: LA10, CH20, NY30, OR ALL"
-		 ACCEPT CHOICE
+          DISPLAY "ENTER YOUR CHOICE OF WAREHOUSE" 
+          DISPLAY "Choices are as follows: LA10, CH20, NY30, OR ALL"
+          ACCEPT CHOICE
 		  
-		  IF CHOICE = 'ALL' OR CHOICE = 'all' THEN
-	      SORT SORT-FILE
+          IF CHOICE = 'ALL' OR CHOICE = 'all' THEN
+          SORT SORT-FILE
 		     ON ASCENDING KEY   TMP-WH-ID
-			                    TMP-VEN-ID
-							    TMP-COST-ID
-			 INPUT PROCEDURE IS 011-WH-CK1
-			 GIVING WH-FILE1
+                                TMP-VEN-ID
+                                TMP-COST-ID
+             INPUT PROCEDURE IS 011-WH-CK1
+             GIVING WH-FILE1
 			 
-	      SORT SORT-FILE
-		     ON ASCENDING KEY   TMP-WH-ID
-			                    TMP-VEN-ID
-							    TMP-COST-ID
-			 INPUT PROCEDURE IS 012-WH-CK2
-			 GIVING WH-FILE2
+          SORT SORT-FILE
+             ON ASCENDING KEY   TMP-WH-ID
+                                TMP-VEN-ID
+                                TMP-COST-ID
+             INPUT PROCEDURE IS 012-WH-CK2
+             GIVING WH-FILE2
 			 
-	      SORT SORT-FILE
-		     ON ASCENDING KEY   TMP-WH-ID
-			                    TMP-VEN-ID
-							    TMP-COST-ID
-			 INPUT PROCEDURE IS 013-WH-CK3
-			 GIVING WH-FILE3
+          SORT SORT-FILE
+             ON ASCENDING KEY   TMP-WH-ID
+                                TMP-VEN-ID
+                                TMP-COST-ID
+             INPUT PROCEDURE IS 013-WH-CK3
+             GIVING WH-FILE3
 			 
-		  MERGE SORT-FILE
+          MERGE SORT-FILE
              ON ASCENDING KEY   WAREHOUSE-ID-IN
                                 VENDOR-ID-IN
                                 COSTUME-ID-IN
@@ -392,15 +392,15 @@
 
           END-IF
 		  
-		  IF CHOICE = 'CH20' OR CHOICE = 'ch20' THEN
-	      SORT SORT-FILE
-		     ON ASCENDING KEY   TMP-WH-ID
-			                    TMP-VEN-ID
-							    TMP-COST-ID
-			 INPUT PROCEDURE IS 011-WH-CK1
-			 GIVING WH-FILE1
+          IF CHOICE = 'CH20' OR CHOICE = 'ch20' THEN
+          SORT SORT-FILE
+             ON ASCENDING KEY   TMP-WH-ID
+                                TMP-VEN-ID
+                                TMP-COST-ID
+             INPUT PROCEDURE IS 011-WH-CK1
+             GIVING WH-FILE1
 			 
-		  MERGE SORT-FILE
+          MERGE SORT-FILE
              ON ASCENDING KEY   WAREHOUSE-ID-IN
                                 VENDOR-ID-IN
                                 COSTUME-ID-IN
@@ -408,15 +408,15 @@
              GIVING MERGED-FILE
 
           END-IF
-		  IF CHOICE = 'LA10' OR CHOICE = 'la10' THEN
-	      SORT SORT-FILE
-		     ON ASCENDING KEY   TMP-WH-ID
-			                    TMP-VEN-ID
-							    TMP-COST-ID
-			 INPUT PROCEDURE IS 012-WH-CK2
-			 GIVING WH-FILE2
+          IF CHOICE = 'LA10' OR CHOICE = 'la10' THEN
+          SORT SORT-FILE
+             ON ASCENDING KEY   TMP-WH-ID
+                                TMP-VEN-ID
+                                TMP-COST-ID
+             INPUT PROCEDURE IS 012-WH-CK2
+             GIVING WH-FILE2
 			 
-		  MERGE SORT-FILE
+          MERGE SORT-FILE
              ON ASCENDING KEY   WAREHOUSE-ID-IN
                                 VENDOR-ID-IN
                                 COSTUME-ID-IN
@@ -424,15 +424,15 @@
              GIVING MERGED-FILE
 
           END-IF
-		  IF CHOICE = 'NY30' OR CHOICE = 'ny30' THEN
-	      SORT SORT-FILE
-		     ON ASCENDING KEY   TMP-WH-ID
-			                    TMP-VEN-ID
-							    TMP-COST-ID
-			 INPUT PROCEDURE IS 013-WH-CK3
-			 GIVING WH-FILE3
+          IF CHOICE = 'NY30' OR CHOICE = 'ny30' THEN
+          SORT SORT-FILE
+            ON ASCENDING KEY   TMP-WH-ID
+                               TMP-VEN-ID
+                               TMP-COST-ID
+            INPUT PROCEDURE IS 013-WH-CK3
+			GIVING WH-FILE3
 			 
-		  MERGE SORT-FILE
+          MERGE SORT-FILE
              ON ASCENDING KEY   WAREHOUSE-ID-IN
                                 VENDOR-ID-IN
                                 COSTUME-ID-IN
@@ -441,45 +441,45 @@
 
           END-IF
 		  
-		  MOVE 'N' TO EOF-FLAG	 
+          MOVE 'N' TO EOF-FLAG	 
        .
 	   
        011-WH-CK1.
           OPEN INPUT UNSORTED-FILE1
-		       OUTPUT ERROR-FILE1
-		   PERFORM UNTIL EOF-FLAG = 'Y'
+               OUTPUT ERROR-FILE1
+		  PERFORM UNTIL EOF-FLAG = 'Y'
 			 READ UNSORTED-FILE1
-			   AT END MOVE 'Y' TO EOF-FLAG
-               NOT AT END
-				   SET WH-INDEX TO 1
-				   SEARCH WH-ITEM
-                    AT END PERFORM 155-ERROR-WRITE-A-LINE1
-                    WHEN US1-WH-ID = WHT-ID(WH-INDEX)
-                      MOVE UNSORT-REC1 TO USORT-REC
-                      RELEASE USORT-REC
+                AT END MOVE 'Y' TO EOF-FLAG
+                NOT AT END
+                   SET WH-INDEX TO 1
+                   SEARCH WH-ITEM
+                      AT END PERFORM 155-ERROR-WRITE-A-LINE1
+                      WHEN US1-WH-ID = WHT-ID(WH-INDEX)
+                         MOVE UNSORT-REC1 TO USORT-REC
+                         RELEASE USORT-REC
                    END-SEARCH
-           END-PERFORM
-	    MOVE 'N' TO EOF-FLAG
-		CLOSE ERROR-FILE1
-		      UNSORTED-FILE1
+          END-PERFORM
+          MOVE 'N' TO EOF-FLAG
+          CLOSE ERROR-FILE1
+                UNSORTED-FILE1
        .
 
        012-WH-CK2.
-         OPEN INPUT UNSORTED-FILE2
-		      OUTPUT ERROR-FILE2
+          OPEN INPUT UNSORTED-FILE2
+               OUTPUT ERROR-FILE2
           PERFORM UNTIL EOF-FLAG = 'Y'
-            READ UNSORTED-FILE2
-              AT END MOVE 'Y' TO EOF-FLAG
-              NOT AT END
-               SET WH-INDEX TO 1
-               SEARCH WH-ITEM
-                 AT END PERFORM 156-ERROR-WRITE-A-LINE2
-                 WHEN US2-WH-ID = WHT-ID(WH-INDEX)
-                   MOVE UNSORT-REC2 TO USORT-REC
-                   RELEASE USORT-REC
-               END-SEARCH
+             READ UNSORTED-FILE2
+                AT END MOVE 'Y' TO EOF-FLAG
+                NOT AT END
+                   SET WH-INDEX TO 1
+                   SEARCH WH-ITEM
+                      AT END PERFORM 156-ERROR-WRITE-A-LINE2
+                      WHEN US2-WH-ID = WHT-ID(WH-INDEX)
+                        MOVE UNSORT-REC2 TO USORT-REC
+                        RELEASE USORT-REC
+                   END-SEARCH
           END-PERFORM
-	    MOVE 'N' TO EOF-FLAG
+          MOVE 'N' TO EOF-FLAG
 		
 		CLOSE ERROR-FILE2
 		      UNSORTED-FILE2
@@ -487,22 +487,22 @@
 
        013-WH-CK3.
           OPEN INPUT UNSORTED-FILE3
-		       OUTPUT ERROR-FILE3
-             PERFORM UNTIL EOF-FLAG = 'Y'
-                READ UNSORTED-FILE3
-                   AT END MOVE 'Y' TO EOF-FLAG
-                   NOT AT END
-                     SET WH-INDEX TO 1
-                     SEARCH WH-ITEM
+               OUTPUT ERROR-FILE3
+          PERFORM UNTIL EOF-FLAG = 'Y'
+             READ UNSORTED-FILE3
+                AT END MOVE 'Y' TO EOF-FLAG
+                NOT AT END
+                   SET WH-INDEX TO 1
+                   SEARCH WH-ITEM
                        AT END PERFORM 157-ERROR-WRITE-A-LINE3
                        WHEN US3-WH-ID = WHT-ID(WH-INDEX)
-                         MOVE UNSORT-REC3 TO USORT-REC
-                         RELEASE USORT-REC
-                     END-SEARCH
-			 END-PERFORM
-	    MOVE 'N' TO EOF-FLAG
-		CLOSE ERROR-FILE3
-		      UNSORTED-FILE3
+                          MOVE UNSORT-REC3 TO USORT-REC
+                          RELEASE USORT-REC
+                   END-SEARCH
+          END-PERFORM
+          MOVE 'N' TO EOF-FLAG
+          CLOSE ERROR-FILE3
+                UNSORTED-FILE3
        .	   
 	   
        025-HOUSEKEEPING.
@@ -528,10 +528,10 @@
        .
 
        075-HEADING-ROUTINE.
-	      PERFORM 076-PAGE-HEADING
-		  PERFORM 077-WAREHOUSE-HEADING
-		  PERFORM 078-VENDOR-HEADING
-		  PERFORM 079-COL-HDR
+          PERFORM 076-PAGE-HEADING
+          PERFORM 077-WAREHOUSE-HEADING
+          PERFORM 078-VENDOR-HEADING
+          PERFORM 079-COL-HDR
 	   .
 	   
        076-PAGE-HEADING.
@@ -618,13 +618,13 @@
 			 EVALUATE TRUE
 			    WHEN COSTUME-SIZE-IN(SUB-ZERO) = 'L'
 				   MOVE 'LARGE' TO DL-SIZE
-				WHEN COSTUME-SIZE-IN(SUB-ZERO) = 'M'
-				   MOVE 'MEDIUM' TO DL-SIZE
-				WHEN COSTUME-SIZE-IN(SUB-ZERO) = 'S'
-				   MOVE 'SMALL' TO DL-SIZE
-				WHEN COSTUME-SIZE-IN(SUB-ZERO) = 'P'
-				   MOVE 'PLUS' TO DL-SIZE
-				WHEN OTHER
+                WHEN COSTUME-SIZE-IN(SUB-ZERO) = 'M'
+                   MOVE 'MEDIUM' TO DL-SIZE
+                WHEN COSTUME-SIZE-IN(SUB-ZERO) = 'S'
+                   MOVE 'SMALL' TO DL-SIZE
+                WHEN COSTUME-SIZE-IN(SUB-ZERO) = 'P'
+                   MOVE 'PLUS' TO DL-SIZE
+                WHEN OTHER
 				   MOVE SPACES TO DL-SIZE
 				   STRING
 				   'BAD' DELIMITED BY ' '
@@ -634,11 +634,11 @@
 			 END-EVALUATE
 			 
 			 EVALUATE TRUE
-			    WHEN COSTUME-TYPE-IN(SUB-ZERO) = 'A'
-				   MOVE 'ADULT' TO DL-TYPE
-				WHEN COSTUME-TYPE-IN(SUB-ZERO) = 'C'
-				   MOVE 'CHILD' TO DL-TYPE
-				WHEN OTHER
+                WHEN COSTUME-TYPE-IN(SUB-ZERO) = 'A'
+                   MOVE 'ADULT' TO DL-TYPE
+                WHEN COSTUME-TYPE-IN(SUB-ZERO) = 'C'
+                   MOVE 'CHILD' TO DL-TYPE
+                WHEN OTHER
                    MOVE SPACES TO DL-TYPE
 				   STRING
                    'BAD' DELIMITED BY ' '
@@ -679,86 +679,86 @@
           MOVE 1 TO PROPER-SPACING
        .
 	   
-	   155-ERROR-WRITE-A-LINE1.
-	     MOVE UNSORT-REC1 TO ERROR-RECORD1
-		 WRITE ERROR-RECORD1
-		    AFTER ADVANCING PROPER-SPACING
-		 MOVE 1 TO PROPER-SPACING
+       155-ERROR-WRITE-A-LINE1.
+          MOVE UNSORT-REC1 TO ERROR-RECORD1
+          WRITE ERROR-RECORD1
+             AFTER ADVANCING PROPER-SPACING
+          MOVE 1 TO PROPER-SPACING
 	   .
 	   
-	   156-ERROR-WRITE-A-LINE2.
-	     MOVE UNSORT-REC2 TO ERROR-RECORD2
-		 WRITE ERROR-RECORD2
-		    AFTER ADVANCING PROPER-SPACING
-		 MOVE 1 TO PROPER-SPACING
+       156-ERROR-WRITE-A-LINE2.
+          MOVE UNSORT-REC2 TO ERROR-RECORD2
+          WRITE ERROR-RECORD2
+             AFTER ADVANCING PROPER-SPACING
+          MOVE 1 TO PROPER-SPACING
 	   .
 	   
-	   157-ERROR-WRITE-A-LINE3.
-	     MOVE UNSORT-REC3 TO ERROR-RECORD3
-		 WRITE ERROR-RECORD3
-		    AFTER ADVANCING PROPER-SPACING
-		 MOVE 1 TO PROPER-SPACING
+       157-ERROR-WRITE-A-LINE3.
+          MOVE UNSORT-REC3 TO ERROR-RECORD3
+          WRITE ERROR-RECORD3
+             AFTER ADVANCING PROPER-SPACING
+          MOVE 1 TO PROPER-SPACING
 	   .
 
        200-WH-CONTROL-BREAK.
           PERFORM 225-V-CONTROL-BREAK
-		  MOVE WS-WH-TOT TO GRP-WH-TOT
-		  MOVE WS-WAREHOUSE-HOLD TO GRP-WAREHOUSE-NAME
-		  MOVE WAREHOUSE-ID-IN TO WS-WAREHOUSE-HOLD
-		  MOVE WAREHOUSE-ID-IN TO WH-WAREHOUSE-ID
-		  
-		  MOVE GRP-WAREHOUSE TO REPORT-RECORD
-		  MOVE 2 TO PROPER-SPACING
-		  PERFORM 150-WRITE-A-LINE
-		  MOVE ZEROS TO WS-WH-TOT
+          MOVE WS-WH-TOT TO GRP-WH-TOT
+          MOVE WS-WAREHOUSE-HOLD TO GRP-WAREHOUSE-NAME
+          MOVE WAREHOUSE-ID-IN TO WS-WAREHOUSE-HOLD
+          MOVE WAREHOUSE-ID-IN TO WH-WAREHOUSE-ID
+          
+          MOVE GRP-WAREHOUSE TO REPORT-RECORD
+          MOVE 2 TO PROPER-SPACING
+          PERFORM 150-WRITE-A-LINE
+          MOVE ZEROS TO WS-WH-TOT
 		  
        .
 
        225-V-CONTROL-BREAK.
-           PERFORM 250-C-CONTROL-BREAK
-		   MOVE WS-VENDOR-TOT TO GRP-VENDOR-TOT
-		   MOVE VH-VENDOR-NAME TO GRP-VENDOR-NAME
-		   MOVE ZEROS TO WS-VENDOR-TOT
-		   MOVE VENDOR-ID-IN TO WS-VENDOR-HOLD
-		   MOVE WS-VENDOR-NAME TO VH-VENDOR-NAME
-		   
-		   MOVE 3 TO PROPER-SPACING
-		   MOVE GRP-VENDOR TO REPORT-RECORD
-		   PERFORM 150-WRITE-A-LINE
-		   MOVE 3 TO PROPER-SPACING
+          PERFORM 250-C-CONTROL-BREAK
+          MOVE WS-VENDOR-TOT TO GRP-VENDOR-TOT
+          MOVE VH-VENDOR-NAME TO GRP-VENDOR-NAME
+          MOVE ZEROS TO WS-VENDOR-TOT
+          MOVE VENDOR-ID-IN TO WS-VENDOR-HOLD
+          MOVE WS-VENDOR-NAME TO VH-VENDOR-NAME
+          
+          MOVE 3 TO PROPER-SPACING
+          MOVE GRP-VENDOR TO REPORT-RECORD
+          PERFORM 150-WRITE-A-LINE
+          MOVE 3 TO PROPER-SPACING
        .
 
        250-C-CONTROL-BREAK.
           MOVE COSTUME-ID-IN TO WS-COST-HOLD
-		  MOVE WS-COSTUME-TOTAL TO GRP-COST-TOT
-		  MOVE GRP-COSTUME TO REPORT-RECORD
-		  MOVE 2 TO PROPER-SPACING
-		  PERFORM 150-WRITE-A-LINE
-		  
-		  MOVE ZEROS TO WS-COSTUME-TOTAL
-		  MOVE 'Y' TO NAME-FLAG
-		  MOVE 3 TO PROPER-SPACING
+          MOVE WS-COSTUME-TOTAL TO GRP-COST-TOT
+          MOVE GRP-COSTUME TO REPORT-RECORD
+          MOVE 2 TO PROPER-SPACING
+          PERFORM 150-WRITE-A-LINE
+          
+          MOVE ZEROS TO WS-COSTUME-TOTAL
+          MOVE 'Y' TO NAME-FLAG
+          MOVE 3 TO PROPER-SPACING
        .
 
-	   300-EOJ-ROUTINE.
-	      EVALUATE TRUE
-		     WHEN EOF-FLAG = 'Y'
-			    PERFORM 400-PRINT-FINAL-TOTALS
-		  END-EVALUATE
+       300-EOJ-ROUTINE.
+          EVALUATE TRUE
+             WHEN EOF-FLAG = 'Y'
+                PERFORM 400-PRINT-FINAL-TOTALS
+          END-EVALUATE
 	   .
 	   
-	   400-PRINT-FINAL-TOTALS.
-		  PERFORM 200-WH-CONTROL-BREAK
-		  MOVE WS-GRAND-TOT TO GRP-GRAND-TOT
-		  MOVE 2 TO PROPER-SPACING
-		  MOVE GRP-GRAND TO REPORT-RECORD
-		  PERFORM 150-WRITE-A-LINE
+       400-PRINT-FINAL-TOTALS.
+          PERFORM 200-WH-CONTROL-BREAK
+          MOVE WS-GRAND-TOT TO GRP-GRAND-TOT
+          MOVE 2 TO PROPER-SPACING
+          MOVE GRP-GRAND TO REPORT-RECORD
+          PERFORM 150-WRITE-A-LINE
 	   .
 	   
-	   500-FINAL-ROUTINE.
-	    CLOSE MERGED-FILE
-		      REPORT-FILE
-	    STOP RUN
-		.
+       500-FINAL-ROUTINE.
+          CLOSE MERGED-FILE
+                REPORT-FILE
+           STOP RUN
+       .
 		
 	   
